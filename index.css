@@ -56,11 +56,6 @@ a:hover{
   text-decoration: underline;
 }
 
-.img-wrapper {
-  display: flex;
-  align-items: center;
-}
-
 .zdj{
   height: 300px;
   max-width: 300px;
@@ -77,15 +72,21 @@ a:hover{
   float: left;
 }
 .opis{
-
+  word-wrap: break-word;
+  position: relative;
+  float: right;
 }
 
 .imgcontainer{
-  width: 50%;
+  float: right;
 }
 
 .opis p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-right: 20px;
   font-size: 20px;
+}
+
+footer{
+  margin-top: 300px;
 }
