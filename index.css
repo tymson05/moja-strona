@@ -1,0 +1,89 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #ffa366;
+  position: relative;
+}
+
+header{
+  background-image: linear-gradient(to bottom right, red , yellow);
+  height: 100px;
+  padding: 20px;
+  box-shadow: 10px 5px 5px black;
+  border-bottom-left-radius: 50% ;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h3 .imie{
+  margin-top: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.t:hover{
+color: blueviolet;
+}
+
+.y:hover{
+color: red;
+}
+
+.g:hover{
+color: lightblue;
+}
+
+.i:hover{
+color: palevioletred;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.zdj{
+  height: 300px;
+  max-width: 300px;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.zdjecieopis{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 75px;
+  position: relative;
+  float: left;
+}
+.opis{
+  word-wrap: break-word;
+  float: left;
+  position: relative;
+  float: right;
+}
+
+.imgcontainer{
+  float: right;
+}
+
+.opis p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-right: 20px;
+  font-size: 20px;
+}
