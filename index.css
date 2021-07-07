@@ -56,6 +56,11 @@ a:hover{
   text-decoration: underline;
 }
 
+.img-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .zdj{
   height: 300px;
   max-width: 300px;
@@ -72,13 +77,11 @@ a:hover{
   float: left;
 }
 .opis{
-  word-wrap: break-word;
-  position: relative;
-  float: right;
+
 }
 
 .imgcontainer{
-  float: right;
+  width: 50%;
 }
 
 .opis p{
